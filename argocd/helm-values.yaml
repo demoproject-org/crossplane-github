@@ -6,10 +6,10 @@ configs:
     application.resourceTrackingMethod: annotation
     timeout.reconciliation: 30s
 server:
-  extraArgs:
-    - --insecure
+  insecure: true
   ingress:
     enabled: true
-    ingressClassName: traefik
+    ingressClassName: nginx
     hosts:
       - argocd.127.0.0.1.nip.io
+      

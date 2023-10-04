@@ -1,5 +1,5 @@
 github:
-  organization: devopsparadox
+  organization: demoproject-org
   repository: my-app
 application:
   name: my-app
@@ -9,4 +9,4 @@ database:
   size: small # small, medium, large
 image:
   repository: docker.io/vfarcic
-hyperscaler: google # google, aws
+hyperscaler: aws

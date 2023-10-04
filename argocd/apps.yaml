@@ -9,7 +9,7 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://github.com/vfarcic/crossplane-github
+    repoURL: https://github.com/demoproject-org/crossplane-github
     targetRevision: HEAD
     path: infra
   destination:
